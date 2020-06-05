@@ -130,7 +130,7 @@ for kk in range(0,mstep):
     
         
     f1[0] = twall - f2[0] #constant temperature boundary condition, x=0
-    f1[m-1] = 0 - f2[m-1] # boundary condition at x=L=0
+    # f1[m-1] = 0 - f2[m-1] # boundary condition at x=L=0
 #    f1[m-1] = f1[m-2] # adiabatic boundary condition, x=L
 #    f2[m-1] = f2[m-2] # adiabatic boundary condition, x=L
 
